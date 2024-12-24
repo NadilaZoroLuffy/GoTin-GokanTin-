@@ -1,0 +1,32 @@
+.container {
+    padding: 10px 120px;
+    margin-top: 20px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar .menu {
+    padding: 10px;
+  }
+  .navbar .menu a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+  }
+  .navbar .auth a.welcome-user {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  .navbar .auth .logout {
+    padding: 10px 20px;
+    background: blue;
+    border-radius: 3px;
+    margin-left: 20px;
+  }
+  .navbar .auth a.logout {
+    color: #fff;
+    text-decoration: none;
+  }
